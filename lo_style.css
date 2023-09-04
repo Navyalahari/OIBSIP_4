@@ -1,0 +1,27 @@
+body {
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    max-width: 400px;
+    padding: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+            
+}
+button {
+    background-color: darkred;
+    color: #fff;
+}
+
+button:hover {
+    background-color: lightcoral;
+}
+.message {
+    margin-top: 10px;
+}

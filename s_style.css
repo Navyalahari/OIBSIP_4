@@ -1,0 +1,48 @@
+body {
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    padding: 70px;
+    border: 1px solid #ccc; /* Add a 1px solid border around the container */
+    border-radius: 5px;
+    background-color: peachpuff;
+    margin: 20px; /* Add margin for space around the container */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkred;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: lightcoral;
+}
+
+.message {
+    color: red;
+    margin-top: 10px;
+}
